@@ -16,5 +16,5 @@ module tb_static_conv;
   
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/static_conv/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/static_conv/*") 
 // End:
