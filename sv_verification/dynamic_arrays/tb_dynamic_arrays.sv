@@ -24,5 +24,5 @@ module tb_dynamic_arrays;
   end
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/dynamic_arrays/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/dynamic_arrays/*") 
 // End:
