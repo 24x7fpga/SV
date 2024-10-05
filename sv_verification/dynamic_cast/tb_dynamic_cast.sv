@@ -59,5 +59,5 @@ module tb_dynamic_cast;
  
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/dynamic_cast/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/dynamic_cast/*") 
 // End:
