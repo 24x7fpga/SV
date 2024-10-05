@@ -26,5 +26,5 @@ module tb_associative_arrays;
   
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/associative_arrays/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/associative_arrays/*") 
 // End:
