@@ -20,5 +20,5 @@ module tb_foreach_loop;
  
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/foreach_loop/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/foreach_loop/*") 
 // End:
