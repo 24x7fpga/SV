@@ -35,5 +35,5 @@ module tb_queues;
  
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/queues/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/queues/*") 
 // End:
