@@ -15,5 +15,5 @@ module tb_type_enum;
  
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/type_enum/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/type_enum/*") 
 // End:
