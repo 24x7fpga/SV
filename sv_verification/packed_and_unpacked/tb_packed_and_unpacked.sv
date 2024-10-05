@@ -20,5 +20,5 @@ module tb_packed_and_unpacked;
  
 endmodule 
 // Local Variables: 
-// verilog-library-directories:("~/Projects/fpgaProjects/Verification/sv_verification/packed_and_unpacked/*") 
+// verilog-library-directories:("~/Projects/fpgaProjects/SystemVerilog_Verification/sv_verification/packed_and_unpacked/*") 
 // End:
