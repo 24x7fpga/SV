@@ -1,1 +1,33 @@
-#+title: Verification using SystemVerilog
+#+title: Design Verification using SystemVerilog
+
+SystemVerilog builds on top of Verilog, enhancing readability and reusability. It introduces improvements primarily aimed at advanced verification and C language integration. The [[http://ece.uah.edu/~gaede/cpe526/SystemVerilog_3.1a.pdf][SystemVerilog Language Reference Manual (LRM)]] provides a detailed and comprehensive overview of the language's capabilities and enhancements.
+
+* Folder Structure
+
+#+begin_src bash
+Projects
+.
+├── FPGA_Projects
+│   └── Design_Verification
+│       ├── Readme.org
+│       ├── sv_tcl_script
+│       └── sv_verification
+│   
+└── Python_Scripts
+    └── sv_scripts
+#+end_src
+ 
+- Clone the Design_Verification folder
+#+begin_src bash
+git clone https:/https://github.com/24x7fpga/SystemVerilog_Verification.git ~/Projects/FPGA_Projects/
+#+end_src
+
+- Clone the Pythons Scripts
+#+begin_src bash
+git clone https://github.com/24x7fpga/PythonScripts.git ~/Projects/
+#+end_src
+
+- Add the script
+#+begin_src bash
+echo 'export PATH=$HOME/Projects/Python_Scripts/sv_scripts.py:$PATH' >>~/.zshrc
+#+end_src
