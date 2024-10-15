@@ -14,14 +14,16 @@ class generator;
   event ev;
   
   function new(mailbox gen2drv);
+    trans = new();
     this.gen2drv=gen2drv;
   endfunction
   
   task main();
     repeat(32)
     begin
-      trans = new();
-      trans.randomize();
+      assert(trans.randomize) 
+          else 
+        $error("GEN: Randomization Failed");  //randomize the transaction and verify if it is randomized
       trans.display("GEN");
       gen2drv.put(trans);
       @(ev);
