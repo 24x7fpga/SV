@@ -76,3 +76,4 @@ Note: The PATH is a list of directories that your operating system searches thro
 * Verification Examples
 
 - [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/half_adder][Half Adder]]
+- [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/full_adder][Full Adder]]
