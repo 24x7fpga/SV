@@ -2,7 +2,6 @@
 
 `include "environment.sv"
 
-
 program test(intf i_intf);
 
   environment env;	//class handle

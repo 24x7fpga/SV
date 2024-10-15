@@ -18,12 +18,12 @@ class environment;
   
   event ev;
   
-  virtual intf vif;		//
+  virtual intf vif;		
   
   function new (virtual intf vif);
     this.vif = vif;
     
-    m1 = new();		//create the mailbox for connection
+    m1 = new();			//create the mailbox for connection
     m2 = new();
     
     gen = new(m1);
@@ -31,8 +31,8 @@ class environment;
     mon = new(vif,m2);
     scb = new(m2);
     
-    gen.ev = ev;    //connect event from generator class
-    scb.ev = ev;    //to scroboard class
+    gen.ev = ev;    		//connect event from generator class
+    scb.ev = ev;    		//to scroboard class
   endfunction
   
   
@@ -43,9 +43,10 @@ class environment;
       mon.main();
       scb.main();
     join_any
+    disable fork;		//kill outstanding forks
   endtask
   
-  task run();				//main which calls test() task
+  task run();			//main which calls test() task
     test();
     $finish;
   endtask

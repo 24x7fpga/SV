@@ -5,11 +5,11 @@
 
 class driver;
   
-  virtual intf vif;			//vif is the handle of virtual interface
+  virtual intf vif;		//vif is the handle of virtual interface
   
-  mailbox gen2drv;			//handle of the mailbox
+  mailbox gen2drv;		//handle of the mailbox
   
-  transaction trans;	    //handle of transaction class, to get the data from mailbox
+  transaction trans;		//handle of transaction class, to get the data from mailbox
   
   function new (virtual intf vif, mailbox gen2drv);
     this.vif = vif;
@@ -19,7 +19,7 @@ class driver;
   task main;
     forever
       begin
-        gen2drv.get(trans); //receive the info from generator
+        gen2drv.get(trans);	//receive the info from generator
         
         vif.a <= trans.a;	//sample the input for the virtual interface
         vif.b <= trans.b;
