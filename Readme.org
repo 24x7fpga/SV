@@ -8,7 +8,7 @@ SystemVerilog builds on top of Verilog, enhancing readability and reusability. I
 Projects
 .
 ├── FPGA_Projects
-│   └── Design_Verification
+│   └── SystemVerilog_Verification
 │       ├── Readme.org
 │       ├── sv_tcl_script
 │       └── sv_verification
@@ -16,18 +16,63 @@ Projects
 └── Python_Scripts
     └── sv_scripts
 #+end_src
- 
-- Clone the Design_Verification folder
+
+* Clone Project 
+
+- Clone the repository =SystemVerification_Verification= and place it according to the specified folder structure.
+
 #+begin_src bash
 git clone https:/https://github.com/24x7fpga/SystemVerilog_Verification.git ~/Projects/FPGA_Projects/
 #+end_src
 
-- Clone the Pythons Scripts
+- Clone the =Python_Scripts= repository and place it according to the specified folder structure. While the repository contains various scripts, only the =sv_scripts= folder is required for running verification simulations.
+
 #+begin_src bash
 git clone https://github.com/24x7fpga/PythonScripts.git ~/Projects/
 #+end_src
 
-- Add the script
+- Add the script location to your =PATH=.
+
 #+begin_src bash
-echo 'export PATH=$HOME/Projects/Python_Scripts/sv_scripts.py:$PATH' >>~/.zshrc
+echo 'export PATH=$HOME/Projects/Python_Scripts/sv_scripts:$PATH' >>~/.zshrc
 #+end_src
+
+Note: The PATH is a list of directories that your operating system searches through whenever you run a command, helping it locate the necessary executable files.On most Linux distributions, Bash is the default shell, but choose the shell that you use.
+
+* Verification Basics
+
+[[https://24x7fpga.com/sv_directory/2024_06_27_16_53_00_sv_verification_directory/][System Verilog Directory]]
+
+- [[https://24x7fpga.com/sv_directory/2024_07_02_00_18_56_associative_arrays/][Associative Arrays]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_15_48_23_tasks/][Automatic Task]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_15_18_41_break_and_continue/][Break and Continue]]
+- [[https://24x7fpga.com/sv_directory/2024_07_24_16_47_44_class/][Class Example]]
+- [[https://24x7fpga.com/sv_directory/2024_07_26_09_41_22_shallow_copy_and_deep_copy/][Deep Copy]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_14_21_47_while_and_do_while_loops/][Do while Loop]]
+- [[https://24x7fpga.com/sv_directory/2024_07_01_15_56_35_dynamic_arrays/][Dynamic Arrays]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_12_40_49_for_and_foreach_loops/][For Loop]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_12_40_49_for_and_foreach_loops/][Foreach Loop]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_14_46_31_repeat_and_forever/][Forever Example]]
+- [[https://24x7fpga.com/sv_directory/2024_07_20_21_47_05_fork_join/][Fork Join]]
+- [[https://24x7fpga.com/sv_directory/2024_07_20_21_58_50_fork_join_any/][Fork Join Any]]
+- [[https://24x7fpga.com/sv_directory/2024_07_23_17_27_50_disable_fork/][Fork Join Disable]]
+- [[https://24x7fpga.com/sv_directory/2024_07_23_17_27_07_wait_fork/][Fork Join Wait]]
+- [[https://24x7fpga.com/sv_directory/2024_07_20_15_36_43_functions/][Function Example]]
+- [[https://24x7fpga.com/sv_directory/2024_07_29_11_09_50_inheritance/][Inheritance]]
+- [[https://24x7fpga.com/sv_directory/2024_07_25_12_36_42_method/][Method Outside Class]]
+- [[https://24x7fpga.com/sv_directory/2024_06_29_23_39_49_packed_and_unpacked_array/][Packed and Unpacked Array]]
+- [[https://24x7fpga.com/sv_directory/2024_07_31_10_26_49_polymorphism/][Polymorphism]]
+- [[https://24x7fpga.com/sv_directory/2024_07_01_23_35_47_queues/][Queue]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_14_46_31_repeat_and_forever/][Repeat Example]]
+- [[https://24x7fpga.com/sv_directory/2024_07_26_09_41_22_shallow_copy_and_deep_copy/][Shallow Copy]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_15_48_23_tasks/][Static Task]]
+- [[https://24x7fpga.com/sv_directory/2024_07_29_12_16_52_super_keyword/][Super Keyword]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_15_48_23_tasks/][Task Example]]
+- [[https://24x7fpga.com/sv_directory/2024_07_25_14_49_57_this_keyword/][This Keyword]]
+- [[https://24x7fpga.com/sv_directory/2024_07_02_15_05_30_enumeration/][Type Enumeration]]
+- [[https://24x7fpga.com/sv_directory/2024_07_31_10_21_04_virtual_keyword/][Virtual Keyword]]
+- [[https://24x7fpga.com/sv_directory/2024_07_19_14_21_47_while_and_do_while_loops/][While Loop]]
+
+* Verification Examples
+
+- [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/half_adder][Half Adder]]
