@@ -37,7 +37,7 @@ git clone https://github.com/24x7fpga/PythonScripts.git ~/Projects/
 echo 'export PATH=$HOME/Projects/Python_Scripts/sv_scripts:$PATH' >>~/.zshrc
 #+end_src
 
-Note: The PATH is a list of directories that your operating system searches through whenever you run a command, helping it locate the necessary executable files.On most Linux distributions, Bash is the default shell, but choose the shell that you use.
+Note: The PATH is a list of directories that your operating system searches through whenever you run a command, helping it locate the necessary executable files. On most Linux distributions, bash is the default shell, but choose the shell that you use.
 
 * Verification Basics
 
