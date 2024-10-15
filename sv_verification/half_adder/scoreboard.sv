@@ -7,7 +7,7 @@ class scoreboard;
   
   event ev;            //Create event to trigger the next stimulus in generator class
   
-  mailbox mon2scb;     //Create a mailbox: sending info from Monitor to Scroeboard
+  mailbox mon2scb;     //Create a mailbox: sending info from Monitor to Scoreboard
   
   transaction trans;   //Create an handle of the transaction class
   
@@ -28,7 +28,7 @@ class scoreboard;
           $error("Verification Failed! :(");
         
         $display("-----------------------");
-		->ev;    // trigger an event to proceed to the next stimulus
+	->ev;    	// trigger an event to proceed to the next stimulus
       end
   endtask
   

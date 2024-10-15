@@ -9,7 +9,7 @@ class monitor;
   
   mailbox mon2scb;		//declare mailbox to transfer info from monitor to scoreboard
   
-  transaction trans;	//handle for transaction class
+  transaction trans;		//handle for transaction class
   
   function new (virtual intf vif, mailbox mon2scb);	
     this.vif = vif;
@@ -21,9 +21,9 @@ class monitor;
   task main;			
     forever
     	begin
-          #3;				    //sample after 3 ns
+          #3;			//sample after 3 ns
           
-          trans.a = vif.a;		//send the data from virtual interface to monitor
+          trans.a = vif.a;	//send the data from virtual interface to monitor
           trans.b = vif.b;
           
           trans.s = vif.s;
