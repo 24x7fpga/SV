@@ -7,6 +7,8 @@ program test();
    initial begin
       ct = new();
       ct.randomize();
+      // 
+      //std::randomize(ct);
       ct.disp();
    end
 
