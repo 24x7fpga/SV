@@ -22,7 +22,7 @@ create_project $project_name $project_location/verif -part xc7z020clg400-1 -forc
 add_files [glob $project_location/*.sv]
 #add_files [glob $project_location/../../testbench.sv]
 
-set_property top testbench [get_filesets sim_1]
+set_property top tb_$project_name [get_filesets sim_1]
 set_property top_lib xil_defaultlib [get_filesets sim_1]
 
 # default simulation runtime is removed; by default it is set to 1000ns
