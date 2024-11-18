@@ -11,15 +11,25 @@ Projects
 │   └── SystemVerilog_Verification
 │       ├── Readme.org
 │       ├── sv_tcl_script
+│       │   ├── sv_cstrs.tcl
+│       │   └── sv_run.tcl
+│       ├── sv_templates
+│       │   ├── constraints
+│       │   └── design
 │       └── sv_verification
 │   
 └── Python_Scripts
     └── sv_scripts
+        ├── sv_clean.py
+        ├── sv_cstrs_design.py
+        ├── sv_cstrs_run.py
+        ├── sv_design.py
+        └── sv_run.py
 #+end_src
 
 * Clone Project 
 
-- Clone the repository =SystemVerification_Verification= and place it according to the specified folder structure.
+- Clone the repository =SystemVerilog_Verification= and place it according to the specified folder structure.
 
 #+begin_src bash
 git clone https:/https://github.com/24x7fpga/SystemVerilog_Verification.git ~/Projects/FPGA_Projects/
