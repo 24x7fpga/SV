@@ -1,0 +1,65 @@
+#+title: Verification Constraint Challenges
+
+This collection features constraint challenges designed to help practice generating constraints for verification. The challenges are sourced from various platforms, including Verification Academy, Reddit, Google, and other resources I've come across.
+
+* Simulation Tools
+
+Both free versions of Vivado and QuestaSim have limited verification support. For simulation, EDA Playground is the most suitable tool. You can upload these files to EDA Playground to run simulations easily.
+
+* Folder Structure
+
+#+begin_src bash
+Projects
+.
+├── FPGA_Projects
+│   └── SystemVerilog_Verification
+│       ├── Readme.org
+│       ├── sv_tcl_script
+│       └── sv_verification
+│           ├──    ...
+│           ├──    ...
+│           ├── cstrs_challenges
+│           │   ├── diag_zero
+│           │   ├──   ...
+│           │   ├──   ...
+│           │
+│           ├──   ...
+│           ├──   ...
+│   
+└── Python_Scripts
+    └── sv_scripts
+        ├── sv_cstrs_design.py
+        └── sv_cstrs_run.py
+
+#+end_src
+
+Even the run scripts are create to streamline the process using Vivado, due to its limited support, the scripts are used solely to generate the necessary files to complete the code. Simulations are conducted on EDA Playground. Only =sv_cstrs_design.py= and the template files in the =sv_templates= directory are required to create design files. The =sv_cstrs_design.py= script creates a directory labeled by the user inside the sv_verification directory, while the template files in =sv_templates= serve as a blueprint to streamline simulation.
+
+The complete design process is describe [here].
+
+* Clone Project
+
+- Clone the repository =SystemVerilog_Verification= and place it according to the specified folder structure.
+
+#+begin_src bash
+git clone https:/https://github.com/24x7fpga/SystemVerilog_Verification.git ~/Projects/FPGA_Projects/
+#+end_src
+
+Clone the whole folder to access the constraints challenges.
+
+- Clone the =Python_Scripts= to automatically generate the design files.
+
+#+begin_src bash
+git clone https:/https://github.com/24x7fpga/Python_Scripts.git ~/Projects/FPGA_Projects/
+#+end_src
+
+Note: =Python_Scritps= contain other scritps, =sv_scripts= directory is deticated to verification designs.
+
+* Constraint Challenge
+
+Verification using System Verilog [[https://24x7fpga.com/sv_directory/2024_06_27_16_53_00_sv_verification_directory/][HomePage]]. Constraint challenges [HomePage] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges][GitHub Page]].
+
+- [Generate diagonal zeros/ones] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/diag_zero][Source Link]]
+- [Generate cyclic random number without using Randc] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/randc_w_rand1][Source Link1]] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/randc_w_rand2][Source Link2]]
+- [Generate number divisible by X] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/div_by_X][Source Link]]
+- [Generate power of two's] [Source Link1] [Source Link2] [Source Link3]
