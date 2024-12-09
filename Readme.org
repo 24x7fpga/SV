@@ -8,7 +8,7 @@ SystemVerilog builds on top of Verilog, enhancing readability and reusability. I
 Projects
 .
 ├── FPGA_Projects
-│   └── SystemVerilog_Verification
+│   └── SV
 │       ├── Readme.org
 │       ├── sv_tcl_script
 │       │   ├── sv_cstrs.tcl
@@ -32,13 +32,13 @@ Projects
 - Clone the repository =SystemVerilog_Verification= and place it according to the specified folder structure.
 
 #+begin_src bash
-git clone https:/https://github.com/24x7fpga/SystemVerilog_Verification.git ~/Projects/FPGA_Projects/
+git clone https:/https://github.com/24x7fpga/SV.git ~/Projects/FPGA_Projects/
 #+end_src
 
 - Clone the =Python_Scripts= repository and place it according to the specified folder structure. While the repository contains various scripts, only the =sv_scripts= folder is required for running verification simulations.
 
 #+begin_src bash
-git clone https://github.com/24x7fpga/PythonScripts.git ~/Projects/
+git clone https://github.com/24x7fpga/Python_Scripts.git ~/Projects/
 #+end_src
 
 - Add the script location to your =PATH=.
@@ -49,9 +49,13 @@ echo 'export PATH=$HOME/Projects/Python_Scripts/sv_scripts:$PATH' >>~/.zshrc
 
 Note: The PATH is a list of directories that your operating system searches through whenever you run a command, helping it locate the necessary executable files. On most Linux distributions, bash is the default shell, but choose the shell that you use.
 
-* Verification Basics
+* Design Directories
 
-[[https://24x7fpga.com/sv_directory/2024_06_27_16_53_00_sv_verification_directory/][System Verilog Directory]]  [[https://24x7fpga.com/sv_directory/2024_11_12_18_40_22_constraint_challenges/][Constraint Challenges]]
+- [[https://github.com/24x7fpga/SV/tree/main][sv_verification]]: This repository is dedicated to SystemVerilog-based verification techniques. Concepts such as mailboxes, SV methodology, and testbench automation are demonstrated. Scripts and examples are provided to aid learning and implementation in practical verification scenarios. The repository homepage can be found [[https://24x7fpga.com/sv_directory/2024_06_27_16_53_00_sv_verification_directory/][here]].
+
+- [[https://github.com/24x7fpga/SV/tree/main/sv_verification/cstrs_challenges][cstrs_challenges]]: This repository is focused on mastering SystemVerilog constraints. It includes a collection of challenges and questions designed for practicing and improving constraint-writing skills. Examples and exercises are provided to enhance understanding. The repository homepage can be found [[https://24x7fpga.com/sv_directory/2024_11_12_18_40_22_constraint_challenges/][here]]
+
+* Verification Basics
 
 - [[https://24x7fpga.com/sv_directory/2024_07_02_00_18_56_associative_arrays/][Associative Arrays]]
 - [[https://24x7fpga.com/sv_directory/2024_07_19_15_48_23_tasks/][Automatic Task]]
@@ -90,7 +94,11 @@ Note: The PATH is a list of directories that your operating system searches thro
 - [[https://24x7fpga.com/sv_directory/2024_07_31_10_21_04_virtual_keyword/][Virtual Keyword]]
 - [[https://24x7fpga.com/sv_directory/2024_07_19_14_21_47_while_and_do_while_loops/][While Loop]]
 
-* Verification Examples
+* Basic Examples
 
 - [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/half_adder][Half Adder]]
 - [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/full_adder][Full Adder]]
+
+* Verification Examples
+
+- [[https://github.com/24x7fpga/SV/tree/main/sv_verification/adder_subtractor][Adder Subtractor]]
