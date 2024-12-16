@@ -59,7 +59,7 @@ Note: =Python_Scritps= contain other scritps, =sv_scripts= directory is deticate
 
 Verification using System Verilog [[https://24x7fpga.com/sv_directory/2024_06_27_16_53_00_sv_verification_directory/][HomePage]]. Constraint challenges [[https://24x7fpga.com/sv_directory/2024_11_12_18_40_22_constraint_challenges/][HomePage]] and [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges][GitHub Repository]].
 
-- [[https://24x7fpga.com/sv_directory/2024_11_29_21_53_39_generate_diagonal_zeros_ones/][Generate diagonal zeros/ones]] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/diag_zero][Source Link]]
+- [[https://24x7fpga.com/sv_directory/2024_11_29_21_53_39_generate_diagonal_zeros_ones/][Generate diagonal zeros/ones]] - [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/diag_zero][Source Link]]
 - [Generate cyclic random number without using Randc] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/randc_w_rand1][Source Link1]] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/randc_w_rand2][Source Link2]]
 - [Generate number divisible by X] [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/div_by_X][Source Link]]
 - [Generate power of two's] [Source Link1] [Source Link2] [Source Link3]
