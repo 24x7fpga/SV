@@ -62,5 +62,5 @@ Verification using System Verilog [[https://24x7fpga.com/sv_directory/2024_06_27
 - [[https://24x7fpga.com/sv_directory/2024_11_29_21_53_39_generate_diagonal_zeros_ones/][Generate diagonal zeros/ones]] -- [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/diag_zero][Source]]
 - [[https://24x7fpga.com/sv_directory/2025_01_10_cyclic_random_number_without_using_randc/][Cyclic Random Number without using Randc]] -- [[https://github.com/24x7fpga/SV/tree/main/sv_verification/cstrs_challenges/rand_wo_randc][Source]]
 - [[https://24x7fpga.com/sv_directory/2024_12_14_divide_by_x/][Generate number divisible by X]] -- [[https://github.com/24x7fpga/SystemVerilog_Verification/tree/main/sv_verification/cstrs_challenges/div_by_X][Source]]
-- [Random Powers of Two] -- [Source]
+- [[https://24x7fpga.com/sv_directory/2025_01_10_random_powers_of_two/][Random Powers of Two]] -- [[https://github.com/24x7fpga/SV/tree/main/sv_verification/cstrs_challenges/pwr_two][Source]]
 - [Numbers where LSD is always X] - [Source]
